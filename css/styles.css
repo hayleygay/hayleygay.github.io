@@ -1,6 +1,13 @@
 /* Styling */
 
 
+
+/* Global */
+
+body {
+    background: url("../img/bg-tile.jpg");
+}
+
 /* Header */
 header img {
     width: 100px;
