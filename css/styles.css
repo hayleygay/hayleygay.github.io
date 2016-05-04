@@ -1,6 +1,4 @@
-/* Styling */
-
-
+/* STYLING */
 
 /* Global */
 
@@ -11,4 +9,25 @@ body {
 /* Header */
 header img {
     width: 100px;
+}
+
+/* Main Nav */
+
+nav li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav a:link,
+nav a:visited {
+  background: #C9C9C9;
+  text-decoration: none;
+  padding: 1em;
+  transition: all .5s;
+}
+
+nav a:hover,
+nav a:active {
+  background: #76D5F5;
+  margin-left: 0.5em;
 }
