@@ -1,0 +1,137 @@
+/***************/
+/* YOUR STYLES */
+/***************/
+
+/* Color Palette */
+
+.color-1 {
+    background: #F7CA16;
+}
+.color-2 {
+    background: #000000;
+}
+.color-3 {
+    background: #E6E6E5;
+}
+.color-4 {
+    background: #9F9B8C;
+}
+
+.color-5 {
+    background: #72B0D0;
+}
+
+/* Textures or Patterns*/
+
+.pattern-1 {
+    background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/ignasi_pattern_s.png") repeat;
+    background-size: cover;
+}
+
+.pattern-2 {
+    background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/congruent_outline.png") repeat;
+    background-size: cover;
+}
+
+.pattern-3 {
+    background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/sayagata-400px.png") repeat;
+    background-size: cover;
+}
+
+.pattern-4 {
+    background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/stardust.png") repeat;
+    background-size: cover;
+}
+
+.pattern-5 {
+    background: url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/asanoha-400px.png") repeat;
+    background-size: cover;
+}
+
+/* Imagery */
+
+
+/* Icons */
+
+.icon-1 {
+    border: none;
+}
+
+.icon-2 {
+    border: none;
+}
+
+.icon-3 {
+    border: none;
+}
+
+.icon-4 {
+    border: none;
+}
+
+.icon-5 {
+    border: none;
+}
+
+/* Navigation */
+
+.primary-nav {
+    position: fixed;
+    width: 100%;
+    background: #000000;
+    color: #E6E6E5;
+    margin: 0;
+    padding-left: 25px;
+    left: 0;
+    top: 0;
+    text-align: left;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: #E6E6E5;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75em;
+    padding: 5px 20px 5px 20px;
+    margin: 0px 20px 0px 20px;
+}
+
+nav li {
+    list-style: none;
+    float: right;
+    padding-bottom: 10px;
+}
+
+/* Typography */
+
+body {
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+
+h1 {
+    font-family: 'Rambla', sans-serif;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #9F9B8C;
+}
+
+h2 {
+    font-family: 'Rambla', sans-serif;
+    font-size: 2em;
+    color: #9F9B8C;
+    font-weight: 800;
+}
+
+h3 {
+    font-family: 'Rambla', sans-serif;
+    color: #9F9B8C;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
