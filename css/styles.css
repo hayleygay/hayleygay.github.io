@@ -13,10 +13,13 @@ header img {
 
 /* Main Nav */
 
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
 nav li {
     font-family: 'Lato', sans-serif;
     list-style: none;
     display: inline-block;
+    font-size: .75em;
 }
 
 nav a:link,
@@ -34,6 +37,8 @@ nav a:active {
 }
 
 /* Paragraphs */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 .grid-6 {
     font-family: 'Open Sans', sans-serif;
