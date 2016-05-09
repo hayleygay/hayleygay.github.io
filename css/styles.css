@@ -14,8 +14,9 @@ header img {
 /* Main Nav */
 
 nav li {
-  list-style: none;
-  display: inline-block;
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    display: inline-block;
 }
 
 nav a:link,
@@ -30,4 +31,25 @@ nav a:hover,
 nav a:active {
   background: #76D5F5;
   margin-left: 0.5em;
+}
+
+/* Paragraphs */
+
+.grid-6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.grid-container3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Quote */
+
+@import url(https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC);
+
+blockquote {
+    font-family: 'IM Fell DW Pica SC', serif;
+    text-align: center;
+    font-size: 2em;
+    color: #72B0D0;
 }
