@@ -11,6 +11,20 @@ header img {
     width: 100px;
 }
 
+.header {
+    background: #22313f;
+    color: #f5d76e;
+    padding: 10px;
+    margin: -10px -10px 20px -10px;
+    position: relative;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    margin: -5px;
+}
+
 /* Main Nav */
 
 @import url(https://fonts.googleapis.com/css?family=Lato);
@@ -20,11 +34,13 @@ nav li {
     list-style: none;
     display: inline-block;
     font-size: .75em;
+    text-transform: uppercase;
 }
 
 nav a:link,
 nav a:visited {
   background: #C9C9C9;
+  color: #22313f;
   text-decoration: none;
   padding: 1em;
   transition: all .5s;
@@ -32,7 +48,7 @@ nav a:visited {
 
 nav a:hover,
 nav a:active {
-  background: #76D5F5;
+  background: #f5d76e;
   margin-left: 0.5em;
 }
 
@@ -44,17 +60,42 @@ nav a:active {
     font-family: 'Open Sans', sans-serif;
 }
 
+.bio {
+    background: #fff;
+    height: 510px;
+    padding: 10px;
+}
+
+h3 {
+    color: #22313f;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+p, dt, dd {
+    font-size: 0.8em;
+}
+
+li {
+    font-size: 0.8em;
+    list-style: none;
+}
+
 .grid-container3 {
     font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    width: 80%;
+    padding: 10px 0 40px 50px;
+    margin: 0 0 50px 135px;
 }
 
 /* Quote */
 
-@import url(https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica+SC);
-
 blockquote {
-    font-family: 'IM Fell DW Pica SC', serif;
+    font-family: 'Lato', sans-serif;
     text-align: center;
     font-size: 2em;
-    color: #72B0D0;
+    color: #f5d76e;
+    background: #fff;
+    font-style: italic
 }
