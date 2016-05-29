@@ -1,0 +1,185 @@
+/* STYLING */
+
+/* Global */
+
+body {
+    background: url("../img/bg-tile.jpg");
+}
+
+/* Header */
+header img {
+    width: 100px;
+}
+
+.header {
+    background: #22313f;
+    color: #f5d76e;
+    padding: 10px;
+    margin: -10px -10px 20px -10px;
+    position: relative;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 3em;
+    margin: -5px;
+}
+
+/* Main Nav */
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+nav li {
+    font-family: 'Lato', sans-serif;
+    list-style: none;
+    display: inline-block;
+    font-size: .75em;
+    text-transform: uppercase;
+}
+
+nav a:link,
+nav a:visited {
+  background: #C9C9C9;
+  color: #22313f;
+  text-decoration: none;
+  padding: 1em;
+  transition: all .5s;
+}
+
+nav a:hover,
+nav a:active {
+  background: #f5d76e;
+  margin-left: 0.5em;
+}
+
+/* Paragraphs */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.grid-6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bio {
+    background: #fff;
+    height: 510px;
+    padding: 10px;
+}
+
+h3 {
+    color: #22313f;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+p, dt, dd {
+    font-size: 0.8em;
+}
+
+li {
+    font-size: 0.8em;
+    list-style: none;
+}
+
+.grid-container3 {
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+    width: 80%;
+    padding: 10px 0 40px 50px;
+    margin: 0 0 50px 135px;
+}
+
+/* Quote */
+
+blockquote {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: #f5d76e;
+    background: #fff;
+    font-style: italic
+}
+
+/* Portfolio Lightbox */
+
+    #gallery a {
+        text-decoration:none;
+        }
+    #gallery .item {
+        width: 200px; height: 200px; overflow: hidden;
+        float: left;
+        margin: 5px;
+        border: solid #C9C9C9 2px;
+        }
+    #gallery .item a {
+        overflow: hidden;
+        }
+    #gallery .item a img {
+        height: 100%;
+        }
+    .lightbox {
+        /** Hide the lightbox */
+        opacity: 0;
+        /** Apply basic lightbox styling */
+        position: fixed;
+        z-index: 9999;
+        width: 100%;
+        height: 100%;
+        top: -100%;
+        left: 0;
+        color:#333333;
+        -webkit-transition: opacity .5s ease-in-out;
+        -moz-transition: opacity .5s ease-in-out;
+        -o-transition: opacity .5s ease-in-out;
+        transition: opacity .5s ease-in-out;
+        }
+    .lightbox:target {
+        /** Show lightbox when it is target */
+        opacity: 1;
+        outline: none;
+        top: 0;
+        background: rgba(0,0,0,.7);
+    }
+    .lightbox .box {
+          width: -webkit-min-content;
+          width: -moz-min-content;
+          width: min-content;
+        min-width:500px;
+         margin: 2% auto;
+        padding:10px 20px 10px 20px;
+        background-color:#FFF;
+        box-shadow: 0px 1px 26px -3px #777777;
+        }
+    .lightbox .title {
+        margin:0;
+        padding:0 0 10px 0px;
+        border-bottom:1px #ccc solid;
+        font-size:22px;
+        }
+    .lightbox .content {
+        display:block;
+        position:relative;
+        }
+    .lightbox .close {
+        display:block;
+        float:right;
+        text-decoration:none;
+        font-family: 'Open Sans', sans-serif;
+        font-size:22px;
+        color:#858585;
+        }
+    .clear {
+        display:block;
+        clear:both;
+        }
+
+/* Flexbox */
+
+#gallery {
+  width: 950px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
