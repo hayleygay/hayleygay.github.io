@@ -60,11 +60,6 @@ nav a:active {
     font-family: 'Open Sans', sans-serif;
 }
 
-.bio {
-    background: #fff;
-    height: 510px;
-    padding: 10px;
-}
 
 h3 {
     color: #22313f;
@@ -76,20 +71,15 @@ p, dt, dd {
     font-size: 0.8em;
 }
 
-li {
-    font-size: 0.8em;
-    list-style: none;
-}
-
 .grid-container3 {
     font-family: 'Open Sans', sans-serif;
     background: #fff;
     width: 80%;
-    padding: 10px 0 40px 50px;
-    margin: 0 0 50px 135px;
+    padding: 10px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around:
+    justify-content: center;
 }
 
 /* Quote */
@@ -179,10 +169,17 @@ blockquote {
 /* Flexbox */
 
 #gallery {
-  width: 950px;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-content: center;
   flex-wrap: wrap;
 }
 
+@media screen and (min-width: 768px) {
+    .grid-container3  .grid-3 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+    }
+}
