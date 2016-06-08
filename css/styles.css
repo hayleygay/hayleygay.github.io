@@ -87,6 +87,9 @@ li {
     width: 80%;
     padding: 10px 0 40px 50px;
     margin: 0 0 50px 135px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 /* Quote */

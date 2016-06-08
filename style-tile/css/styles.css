@@ -2,6 +2,8 @@
 /* YOUR STYLES */
 /***************/
 
+
+
 /* Color Palette */
 
 .color-1 {
@@ -75,63 +77,72 @@
 
 /* Navigation */
 
-.primary-nav {
-    position: fixed;
-    width: 100%;
-    background: #000000;
-    color: #E6E6E5;
-    margin: 0;
-    padding-left: 25px;
-    left: 0;
-    top: 0;
-    text-align: left;
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+header img {
+    width: 100px;
 }
 
-nav a:link {
-    text-decoration: none;
-    color: #E6E6E5;
-    text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.75em;
-    padding: 5px 20px 5px 20px;
-    margin: 0px 20px 0px 20px;
+header {
+    background: #22313f;
+    color: #f5d76e;
+    padding: 10px;
+    margin: -10px -10px 20px -10px;
+    position: relative;
+    width: 100%;
 }
+
+nav a:link,
+nav a:visited {
+  background: #C9C9C9;
+  color: #22313f;
+  text-decoration: none;
+  padding: 1em;
+  transition: all .5s;
+}
+
+nav a:hover,
+nav a:active {
+  background: #f5d76e;
+  margin-left: 0.5em;
+}
+
 
 nav li {
+    font-family: 'Lato', sans-serif;
     list-style: none;
-    float: right;
-    padding-bottom: 10px;
+    display: inline-block;
+    font-size: .75em;
+    text-transform: uppercase;
 }
 
 /* Typography */
 
 body {
-    padding-top: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 100px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-    font-family: 'Rambla', sans-serif;
-    font-size: 3em;
     text-transform: uppercase;
-    font-weight: 800;
-    color: #9F9B8C;
+    font-size: 3em;
+    margin: -5px;
 }
 
 h2 {
-    font-family: 'Rambla', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color: #22313f;
+    text-transform: uppercase;
     font-size: 2em;
-    color: #9F9B8C;
-    font-weight: 800;
 }
 
 h3 {
-    font-family: 'Rambla', sans-serif;
-    color: #9F9B8C;
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    color: #f5d76e;
+    font-style: italic
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
+    font-size: 0.8em;
 }
