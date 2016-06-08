@@ -86,10 +86,15 @@ li {
     background: #fff;
     width: 80%;
     padding: 10px 0 40px 50px;
-    margin: 0 0 50px 135px;
+    margin: 0 auto 50px auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.grid-3 {
+    width: 100%;
+    clear: both;
 }
 
 /* Quote */
@@ -101,4 +106,14 @@ blockquote {
     color: #f5d76e;
     background: #fff;
     font-style: italic
+}
+
+@media screen and (min-width: 900px) {
+    .grid-container3  .grid-3 {
+        display: flex;
+        flex-wrap: wrap;
+        padding: inherit;
+        clear: both;
+        width: 100%;
+    }
 }
